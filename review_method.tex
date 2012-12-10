@@ -33,9 +33,9 @@ Nossa estratégia de busca consistiu essencialmente na busca eletrônica nas seg
 \centering
 \caption{Termos de Busca utilizados para pesquisa de publicações}
 \label{tab:exTable1}
-\begin{tabular}{p{\linewidth}}
+\begin{tabular}{p{0.75\linewidth}}
 \hline
-((``web service'' OR ``web services'' OR ``service oriented'' OR SOA OR SaaS OR PaaS OR ``service orientation'' OR SOC) AND (``quality of services'' OR ``quality of service'' OR QOS)) \\
+((``web service'' OR ``web services'' OR ``service oriented'' OR ``service-oriented'' OR SOA OR SaaS OR PaaS OR ``service orientation'' OR ``service-oriented computing'' OR ``service oriented computing'' OR SOC) AND (``quality of services'' OR ``quality of service'' OR QOS)) \\
 \hline
 \end{tabular}
 \end{table}
@@ -60,23 +60,27 @@ lógicas de maior ou menor granularidade
 
 Inicialmente foram feitas consultas manuais em cada uma das bibliotecas digitais mencionadas em \ref{estrategia_busca}. Verificou-se ao todo o número de 1034 publicações a serem analisadas. Para atender a esse número elevado, a coleta dos resultados de busca foi automatizada por um \emph{crawler} capaz de se comunicar com os sítios e persistir num banco de dados local os metadados das publicações resultantes das buscas nas diferentes bibliotecas.
 
-Dada a dificuldade de se trabalhar cooperativamente com planilhas digitais e visando uma maior eficiência e ubiquidade de trabalho, desenvolveu-se uma ferramenta de apoio capaz de facilitar a extração de dados e gerar resultados em tempo real. Esta consiste num ambiente disponível em nuvem, com interfaces disponíveis para a listagem das publicações persistidas no banco de dados pelo do \emph{crawler} ou de forma manual pela interface de registro de novas publicações. Tal ferramenta permite a divisão do montante de artigos entre diferentes grupos de usuários com contas individuais autenticadas. Cada publicação pode ser classificada por meio de interface apropriada que contém os metadados do artigo, campos de anotações e marcações dos itens de classificação definidos para o mapeamento de estudos em questão.  
-
-O uso dessa ferramenta foi de grande importância para a viabilidade do MS com tamanha quantidade de publicações, e seu uso foi disponibilizado para outros trabalhos de revisão literária.
-
 \subsection{Extração de Dados e Análise}
 
 %Descrever como o ambiente no Heroku está organizado (facets), explicar os termos principalmente os de Computação Orientada a Serviços qual a referência de significado que usamos. ``Each author individually extracted data from a subset of papers. We jointly  discussed unclear issues and solved discrepancies in the analysis.'' Os resultados tambem foram gerados automaticamente por meio da propria ferramenta....
+Dada a dificuldade de se trabalhar cooperativamente com planilhas digitais e visando uma maior eficiência e ubiquidade de trabalho, desenvolveu-se uma ferramenta de apoio capaz de facilitar a extração de dados e gerar resultados em tempo real. Esta consiste num ambiente disponível em nuvem, com interfaces disponíveis para a listagem das publicações coletadas automaticamente pelo do \emph{crawler} ou de forma manual pela interface de registro de novas publicações.
 
-A partir da distribuição automática de artigos para cada um dos pesquisadores, foram excluídas manualmente as publicações que não se adequaram  aos critérios definidos. Tal processo, assim como a classificação, foi realizado individualmente, tendo havido frequente discussão para eliminar quaisquer dúvidas e inconsistências de interpretações quanto aos critérios de inclusão, exclusão e facetas de classificação. 
+No ambiente dessa ferramenta, cada publicação pode ser classificada por meio de interface apropriada que contém os metadados do artigo, campos de anotações e marcações dos itens de classificação definidos para o mapeamento de estudos em questão. O uso dessa ferramenta foi de grande importância para a viabilidade do MS diante da quantidade inicial de publicações coletadas. Al\'{e}m disso, tal ferramenta permite a realiza\c{c}\~{a}o do mapeamento de forma colaborativa onde os artigos s\~{a}o compartilhados entre diferentes grupos de usuários em suas respectivas sess\~{o}es autenticadas.
 
-Os artigos foram classificados de acordo com as categorias: \textbf{contribuição} (composição, coordenação e comunicação, descoberta e seleção, ciclo de vida, monitoramento e adaptação, modelos de QoS e linguagens); \textbf{contexto} (disponibilidade, desempenho, confiabilidade, escalabilidade, segurança, testabilidade, modificabilidade, SLA, custo, outros); \textbf{tipo de pesquisa} (solução, avaliação, validação e experiência pessoal); As definições usadas para as facetas de contribuição são menos evidentes, sendo descritas da seguinte forma:
+A partir da distribuição automática de artigos para cada um dos pesquisadores, foram excluídas manualmente as publicações que não se adequaram aos critérios definidos. Tal processo, assim como a classificação, foi realizado individualmente, tendo havido frequente discussão para eliminar quaisquer dúvidas e inconsistências de interpretações quanto aos critérios de inclusão, exclusão e facetas de classificação. 
 
+Os artigos foram classificados de acordo com as categorias:
 \begin{itemize}
-\item {\bf Composição} Trata da agregação de serviços visando o estabelecimento de novas aplicações ou seu rearranjo de forma a manter determinados níveis de QoS pré-estabelecidos ou acordados.
-\item {\bf Coordenação e Comunicação} Trata da orquestração de serviços para atender a um objetivo determinado num período de duração correspondente à atividade executada. Além disso, envolve a troca de mensagens através do orquestrador, portanto também envolve protocolos específicos para a transação e comunicação em geral.
-\item {\bf Descoberta e Seleção} Refere-se à publicação, descoberta e seleção de serviços em registros públicos ou privados considerando aspectos de qualidade de serviços.
-\item {\bf Ciclo de vida} Refere-se às fases da engenharia de software dentro do domínio de sistemas baseados em serviços, tal qual projeto, desenvolvimento, manutenção e testes.
-\item {\bf Monitoramento e Adaptação} Relacionados ao tempo de execução, monitoramento de atributos não funcionais e adaptação de configuração e disposição de serviços visando manter os níveis desejados de QoS.
-\item {\bf Modelos de QoS e Linguagens} Engloba publicações que definem extensões ou novos modelos de QoS por meio de linguagens, especificações e ontologias a serem utilizadas em sistemas baseados em serviços e na definição de contratos de serviços que incluam garantias de QoS.
-\end{itemize} 
+\item[-] \textbf{Contribuição}: composição, coordenação e comunicação, descoberta e seleção, ciclo de vida, monitoramento e adaptação, modelos de QoS e linguagens. As definições usadas para as facetas de contribuição são definidas conforme~\cite{SCUBE}. Em particular, a categoria \emph{modelos de QoS e linguagens} engloba publicações que definem extensões ou novos modelos de QoS por meio de linguagens, especificações e ontologias a serem utilizadas em sistemas baseados em serviços e na definição de contratos de serviços que incluam garantias de QoS
+\item[-] \textbf{Contexto}: disponibilidade, desempenho, confiabilidade, escalabilidade, segurança, SLA, custo, outros)... (EXPLICAR EM PARTICULAR SLA). 
+\item[-] \textbf{Pesquisa}: solução, avaliação, validação e experiência pessoal. Em particular, diferenciamos a caracter\'{i}stica \emph{avalia\c{c}\~{a}o} de \emph{valida\c{c}\~{a}o} conforme \cite{Wiering et al. 2006}. Artigos classificados em avalia\c{c}\~{a}o s\~{a}o aqueles que .... Enquanto que os artigos avaliados em valida\c{c}\~{a}o s\~{a}o aqueles que .... No entanto, vale ressaltar que artigos classificados como solu\c{c}\~{a}o podem tamb\'{e}m podem ser mapeados como valida\c{c}\~{a}o ou avalia\c{c}\~{a}o, caso estas fa\c{c}am parte da contribui\c{c}\~{a}o do trabalho estudado.
+\end{itemize}
+
+%\begin{itemize}
+%\item {\bf Composição} Trata da agregação de serviços visando o estabelecimento de novas aplicações ou seu rearranjo de forma a manter determinados níveis de QoS pré-estabelecidos ou acordados.
+%\item {\bf Coordenação e Comunicação} Trata da orquestração de serviços para atender a um objetivo determinado num período de duração correspondente à atividade executada. Além disso, envolve a troca de mensagens através do orquestrador, portanto também envolve protocolos específicos para a transação e comunicação em geral.
+%\item {\bf Descoberta e Seleção} Refere-se à publicação, descoberta e seleção de serviços em registros públicos ou privados considerando aspectos de qualidade de serviços.
+%\item {\bf Ciclo de vida} Refere-se às fases da engenharia de software dentro do domínio de sistemas baseados em serviços, tal qual projeto, desenvolvimento, manutenção e testes.
+%\item {\bf Monitoramento e Adaptação} Relacionados ao tempo de execução, monitoramento de atributos não funcionais e adaptação de configuração e disposição de serviços visando manter os níveis desejados de QoS.
+%\item {\bf Modelos de QoS e Linguagens} Engloba publicações que definem extensões ou novos modelos de QoS por meio de linguagens, especificações e ontologias a serem utilizadas em sistemas baseados em serviços e na definição de contratos de serviços que incluam garantias de QoS.
+%\end{itemize} 

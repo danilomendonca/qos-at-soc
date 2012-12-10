@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: sbrc-2013.aux
+Case mismatch error between cite keys SCUBE and scube
+---line 24 of file sbrc-2013.aux
+ : \citation{SCUBE
+ :                }
+I'm skipping whatever remains of this command
+White space in argument---line 25 of file sbrc-2013.aux
+ : \citation{Wiering
+ :                   et al. 2006}
+I'm skipping whatever remains of this command
+The style file: sbc.bst
+Database file #1: sbc-template.bib
+Warning--I didn't find a database entry for "Petersen_Feldt_Mujtaba_Mattsson_2007"
+Warning--I didn't find a database entry for "Papazoglou:2007:SOA:1265289.1265298"
+Warning--I didn't find a database entry for "pernici"
+Warning--I didn't find a database entry for "scube"
+Warning--I didn't find a database entry for "Petersen:2008:SMS:2227115.2227123"
+You've used 16 entries,
+            1935 wiz_defined-function locations,
+            582 strings with 7409 characters,
+and the built_in function-call counts, 8308 in all, are:
+= -- 836
+> -- 311
+< -- 16
++ -- 112
+- -- 104
+* -- 663
+:= -- 1300
+add.period$ -- 52
+call.type$ -- 16
+change.case$ -- 131
+chr.to.int$ -- 16
+cite$ -- 16
+duplicate$ -- 359
+empty$ -- 612
+format.name$ -- 130
+if$ -- 1769
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 16
+newline$ -- 84
+num.names$ -- 50
+pop$ -- 143
+preamble$ -- 1
+purify$ -- 131
+quote$ -- 0
+skip$ -- 285
+stack$ -- 0
+substring$ -- 651
+swap$ -- 112
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 96
+warning$ -- 0
+while$ -- 64
+width$ -- 0
+write$ -- 220
+(There were 2 error messages)
