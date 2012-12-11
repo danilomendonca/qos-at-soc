@@ -1,0 +1,25 @@
+
+secao 2.2
+
+acho que nao deveriamos dizer que ACM, IEEE, ..., sao as mais relevantes para a ciencia da computacao, uma vez que boa parte da comunidade SBRC vem de outras "discilpinas" (engenharia eletrica, por exemplo)
+
+foram consideradas somente aquelas que se lidavam > remover o "se"
+
+uma perspectiva mais recente do panorama atual > uma perspectiva mais recente da pesquisa que vem sendo desenvolvida, .... 
+
+Dai entao resolvemos fazer  > A partir disso resolvemos fazer....
+
+mencionadas em 2.3 > mencionadas na Seção 2.3
+
+um crawler capaz de se comunicar com os sítios  > um crawler  que se comunica... 
+
+(acho que a secao 2.4 pode ser enriquecida)
+
+
+coletadas automaticamente pelo do crawler  > coletadas automaticamente pelo crawler
+
+(parte do texto do segundo paragrafo da secao 2.6 pode ser removido ou movido para uma secao de consideracoes finais.... )
+
+Melhorar os paragrafos que discutem as categorias usadas para classificar os artigos
+
+Acho que cada questao de pesquisa deveria apresentar uma conclusao com a nossa perspectiva sobre os numeros identificados. Algo na linha do que tem na ultima secao da questao de pesquisa 4.
