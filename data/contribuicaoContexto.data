@@ -1,0 +1,49 @@
+"Contribuicao"	"Contexto"	Quantidade
+"Ciclo de vida"	"Confiabilidade"	16
+"Ciclo de vida"	"Custo"	4
+"Ciclo de vida"	"Desempenho"	18
+"Ciclo de vida"	"Disponibilidade"	18
+"Ciclo de vida"	"Escalabilidade"	7
+"Ciclo de vida"	"Outros"	4
+"Ciclo de vida"	"Seguranca"	8
+"Ciclo de vida"	"SLA"	13
+"Composicao"	"Confiabilidade"	10
+"Composicao"	"Custo"	8
+"Composicao"	"Desempenho"	26
+"Composicao"	"Disponibilidade"	22
+"Composicao"	"Escalabilidade"	3
+"Composicao"	"Outros"	3
+"Composicao"	"Seguranca"	5
+"Composicao"	"SLA"	47
+"Coodenacao / Comunicacao"	"Confiabilidade"	5
+"Coodenacao / Comunicacao"	"Custo"	1
+"Coodenacao / Comunicacao"	"Desempenho"	6
+"Coodenacao / Comunicacao"	"Disponibilidade"	6
+"Coodenacao / Comunicacao"	"Escalabilidade"	2
+"Coodenacao / Comunicacao"	"Outros"	1
+"Coodenacao / Comunicacao"	"Seguranca"	1
+"Coodenacao / Comunicacao"	"SLA"	16
+"Descobrimento / Selecao"	"Confiabilidade"	13
+"Descobrimento / Selecao"	"Custo"	9
+"Descobrimento / Selecao"	"Desempenho"	25
+"Descobrimento / Selecao"	"Disponibilidade"	21
+"Descobrimento / Selecao"	"Escalabilidade"	6
+"Descobrimento / Selecao"	"Outros"	5
+"Descobrimento / Selecao"	"Seguranca"	6
+"Descobrimento / Selecao"	"SLA"	47
+"Modelos de QoS e Linguagens"	"Confiabilidade"	21
+"Modelos de QoS e Linguagens"	"Custo"	12
+"Modelos de QoS e Linguagens"	"Desempenho"	30
+"Modelos de QoS e Linguagens"	"Disponibilidade"	16
+"Modelos de QoS e Linguagens"	"Escalabilidade"	2
+"Modelos de QoS e Linguagens"	"Outros"	6
+"Modelos de QoS e Linguagens"	"Seguranca"	11
+"Modelos de QoS e Linguagens"	"SLA"	52
+"Monitoramento / Adaptacao"	"Confiabilidade"	24
+"Monitoramento / Adaptacao"	"Custo"	10
+"Monitoramento / Adaptacao"	"Desempenho"	35
+"Monitoramento / Adaptacao"	"Disponibilidade"	30
+"Monitoramento / Adaptacao"	"Escalabilidade"	7
+"Monitoramento / Adaptacao"	"Outros"	5
+"Monitoramento / Adaptacao"	"Seguranca"	5
+"Monitoramento / Adaptacao"	"SLA"	53
