@@ -25,11 +25,18 @@ p + ylab("") + xlab("") + theme_bw()
 
 
 
-p <- ggplot(pesquisaContribuicao, aes(TipoPesquisa,Contribuicao,size=Quantidade, label=Quantidade))
-p <- p+geom_point(colour="lightgray") + scale_area(to=c(1,30))+geom_text(size=5)
-p + xlab("Contribuicao") + ylab("Tipo de pesquisa") + opts(panel.background = theme_rect(fill='white', colour='black'))
 
-p <- ggplot(pesquisaContribuicao, aes(TipoPesquisa,Contribuicao,size=Quantidade, label=Quantidade))
+
+pesquisaContexto <- read.delim("~/Downloads/soc/qos-at-soc/data/pesquisaContexto.data")
+
+p <- ggplot(pesquisaContexto, aes(TipoPesquisa,Contexto,size=Quantidade, label=Quantidade))
 p <- p+geom_point(colour="lightgray") + scale_area(to=c(1,30))+geom_text(size=5)
-p + xlab("Contribuicao") + ylab("Tipo de pesquisa") + opts(panel.background = themebw())
+p + ylab("") + xlab("") + theme_bw()
+
+contribuicaoContexto <- read.delim("~/Downloads/soc/qos-at-soc/data/contribuicaoContexto.data")
+
+p <- ggplot(contribuicaoContexto, aes(Contribuicao,Contexto,size=Quantidade, label=Quantidade))
+p <- p+geom_point(colour="lightgray") + scale_area(to=c(1,30))+geom_text(size=5)
+p + ylab("") + xlab("") + theme_bw()
+
 
