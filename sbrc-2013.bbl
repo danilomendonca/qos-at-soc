@@ -115,6 +115,35 @@ Menasce, D., Gomaa, H., Malek, S., and Sousa, J. (2011).
 \newblock Sassy: A framework for self-architecting service-oriented systems.
 \newblock {\em Software, IEEE}, 28(6):78 --85.
 
+\bibitem[Menasc{\'e} 2004]{DBLP:journals/internet/Menasce04b}
+Menasc{\'e}, D.~A. (2004).
+\newblock Performance and availability of internet data centers.
+\newblock {\em IEEE Internet Computing}, 8(3):94--96.
+
+\bibitem[Menasce and Almeida 2001]{Menasce:2001:CPW:560806}
+Menasce, D.~A. and Almeida, V. (2001).
+\newblock {\em Capacity Planning for Web Services: metrics, models, and
+  methods}.
+\newblock Prentice Hall PTR, Upper Saddle River, NJ, USA, 1st edition.
+
+\bibitem[Menasc{\'e} et~al. 2003]{DBLP:journals/pe/MenasceARRFM03}
+Menasc{\'e}, D.~A., Almeida, V., Riedi, R.~H., Ribeiro, F., Fonseca, R.~C., and
+  Jr., W.~M. (2003).
+\newblock A hierarchical and multiscale approach to analyze e-business
+  workloads.
+\newblock {\em Perform. Eval.}, 54(1):33--57.
+
+\bibitem[Menasc{\'e} et~al. 2010]{DBLP:MenasceCD10}
+Menasc{\'e}, D.~A., Casalicchio, E., and Dubey, V.~K. (2010).
+\newblock On optimal service selection in service oriented architectures.
+\newblock {\em Perform. Eval.}, 67(8):659--675.
+
+\bibitem[Menasc{\'e} and Gomaa 2000]{DBLP:journals/tse/MenasceG00}
+Menasc{\'e}, D.~A. and Gomaa, H. (2000).
+\newblock A method for design and performance modeling of client/server
+  systems.
+\newblock {\em IEEE Trans. Software Eng.}, 26(11):1066--1085.
+
 \bibitem[Michlmayr et~al. 2010]{5467022}
 Michlmayr, A., Rosenberg, F., Leitner, P., and Dustdar, S. (2010).
 \newblock End-to-end support for qos-aware service selection, binding, and
