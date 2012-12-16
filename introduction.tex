@@ -3,15 +3,16 @@
 
 \section{Introdu\c{c}\~{a}o}\label{sec:introduction}
 
-A \emph{Computa\c c\~{a}o Orientada a Servi\c cos} (ou \emph{Service Oriented Computing} -- SOC) emergiu como 
-um novo paradigma de computa\c c\~{a}o que utiliza servi\c cos como componentes b\'{a}sicos para o desenvolvimento 
-de aplica\c c\~{o}es~\cite{papazoglou:cacm2003}, e tendo como blocos b\'{a}sicos as opera\c c\~{o}es de infraestrutura providas 
-pela arquiteturas orientadas a servi\c co (como publica\c c\~{a}o, sele\c c\~{a}o, descoberta e composi\c c\~{a}o).  
-Um dos objetivos em SOC \'{e} a automa\c c\~{a}o e integra\c c\~{a}o de processos de neg\'{o}cio e/ou cient\'{i}ficos que podem envolver 
-diferentes organiza\c c\~{o}es. Dada as necessidades de orquestra\c c\~{a}o e coreografia e \`{a}s  caracter\'{i}ticas tipicamente distribu\'{i}das e heterog\^{e}neas encontradas 
-nos cen\'{a}rios aos quais SOC foi proposta, novas preocupa\c c\~{o}es relacionadas \`{a} garantia de qualidade de 
-servi\c co (\emph{Quality of Service} --- QoS) motivaram um interesse crescente dos 
-pesquisadores na \'{a}rea. 
+A Computação Orientada a Serviços surgiu com o intuito de prover maior eficiência à produção, provisão e consumo de recursos computacionais, especialmente aplicações, que passam a compor unidades coesas e granulares de lógica capazes de se intercomunicarem e de formarem novas soluções por meio de sua composição, aumentando o reuso, a agilidade, o retorno de investimento e o alinhamento da TI com os processos de negócio. 
+
+A \emph{Computa\c c\~{a}o Orientada a Servi\c cos} (ou \emph{Service Oriented Computing} -- SOC) emergiu como um novo paradigma de computa\c c\~{a}o com intuito de prover maior eficiência à produção, provisão e consumo de recursos computacionais, utilizando não somente servi\c cos como componentes b\'{a}sicos para o desenvolvimento de aplica\c c\~{o}es, mas também componentes diversos de infraestrutura, tais quais servidores web e bancos de dados \cite{papazoglou:cacm2003} \cite{10.1109/MIC.2010.147}. Um dos objetivos em SOC \'{e} a automa\c c\~{a}o e integra\c c\~{a}o de processos de neg\'{o}cio e/ou cient\'{i}ficos, que podem envolver diferentes organiza\c c\~{o}es e domínios administrativos. Assim, por meio de componentes distribuídos, desacoplados, autônomos e auto descritos, SOC visa aumentar o reuso, a agilidade e o retorno de investimento \cite{Erl:2007:SPS:1296147}. Dada as caracter\'{i}ticas tipicamente distribu\'{i}das, independentes e heterog\^{e}neas encontradas nos cen\'{a}rios aos quais SOC foi proposta, novas preocupa\c c\~{o}es relacionadas \`{a} garantia de qualidade de servi\c co (\emph{Quality of Service} --- QoS) motivaram um interesse crescente dos pesquisadores na \'{a}rea. 
+
+% necessidades de orquestra\c c\~{a}o e coreografia e \`{a}s 
+
+
+
+% e tendo como blocos b\'{a}sicos as opera\c c\~{o}es de infraestrutura providas pela arquiteturas orientadas a servi\c co (como publica\c c\~{a}o, sele\c c\~{a}o, descoberta e composi\c c\~{a}o).  
+
 
 Quando novas \'{a}reas de pesquisa emergem, particularmente quando amparadas por 
 certo apelo da ind\'{u}stria, \'{e} natural que uma quantidade significativa de 
@@ -24,11 +25,9 @@ esse ciclo de \emph{matura\c c\~{a}o} dura aproximadamente 20 anos para a \'{a}r
 particular para a \'{a}rea de software~\cite{redwine:icse1985}.
 
 Apesar da pesquisa em SOC ter emergido h\'{a} pouco mais de 10 anos 
-(uma edi\c c\~{a}o especial da \emph{Communications of ACM}~\cite{papazoglou:cacm2003} sobre SOC foi publicada em 2003), n\~{a}o existe um mapeamento que possibilite identificar o est\'{a}gio da pesquisa realizada na \'{a}rea de qualidade de servi\c cos em SOC, dificultando a identifica\c c\~{a}o de tend\^{e}ncias e oportundiades de pesquisa e tornando mais lenta a ado\c c\~{a}o das t\'{e}cnicas propostas. Nossa hip\'{o}tese inicial \'{e} que o foco de pesquisa em QoS / SOC deve estar alcan\c cando o patamar de amadurecimento em que uma quantidade significativa de trabalhos objetiva evidenciar os benef\'{i}cios das solu\c c\~{o}es propostas por meio de estudos experimentais e valida\c c\~{o}es. Com o intuito de investigar tal hip\'{o}tese, este artigo apresenta os resultados de um estudo sistem\'{a}tico~\cite{Petersen_Feldt_Mujtaba_Mattsson_2007}, cujo protocolo \'{e} descrito na Se\c c\~{a}o~\ref{sec:review_method}), revelando, al\'{e}m de da maturidade da pesquisa, quais s\~{a}os os principais atributos de qualidade investigados e grupos de pesquisa que atuam na \'{a}rea. 
+(uma edi\c c\~{a}o especial da \emph{Communications of ACM}~\cite{papazoglou:cacm2003} sobre SOC foi publicada em 2003), n\~{a}o existe um mapeamento que possibilite identificar o est\'{a}gio da pesquisa realizada na \'{a}rea de qualidade de servi\c cos em SOC, dificultando a identifica\c c\~{a}o de tend\^{e}ncias e oportundiades de pesquisa e tornando mais lenta a ado\c c\~{a}o das t\'{e}cnicas propostas. Nossa hip\'{o}tese inicial \'{e} que o foco de pesquisa em QoS / SOC deve estar alcan\c cando o patamar de amadurecimento em que uma quantidade significativa de trabalhos objetiva evidenciar os benef\'{i}cios das solu\c c\~{o}es propostas por meio de estudos experimentais e valida\c c\~{o}es. Com o intuito de investigar tal hip\'{o}tese, este artigo apresenta os resultados de um mapeamento sistem\'{a}tico~\cite{Petersen_Feldt_Mujtaba_Mattsson_2007}, cujo protocolo \'{e} descrito na Se\c c\~{a}o~\ref{sec:review_method}), revelando, al\'{e}m de da maturidade da pesquisa, quais s\~{a}os os principais atributos de qualidade investigados e grupos de pesquisa que atuam na \'{a}rea. 
 
 Organizamos nossa investiga\c{c}\~{a}o em termos de quatro quest\~{o}es de pesquisa (apresentadas inicialmente na Se\c c\~{a}o~\ref{sec:questoesPesquisa}). Tais quest\~{o}es s\~{a}o respondidas ao longo de toda a Se\c c\~{a}o~\ref{sec:resultados}. Finalmente, consolidamos nossas observa\c c\~{o}es e apresentamos as amea\c cas para a validade do estudo na Se\c c\~{a}o~\ref{sec:conclusao}. 
- 
- 
 
 
 % SOC, SOA, \textit{Web Services}, SOAP, REST, OrientaÃ§Ã£o a ServiÃ§os, ComputaÃ§Ã£o em Nuvem. Nos Ãºltimos anos esses e outros acrÃ´nimos tornaram-se frequentes na tecnologia da informaÃ§Ã£o. O surgimento de um novo paradigma, impulsionado pelo amadurecimento da internet e pela proximidade crescente entre negÃ³cios e TI, criou novos caminhos e oportunidades para trabalhos de desenvolvimento e pesquisa. Nesse sentido, um grande nÃºmero de estudos foram e vem sendo conduzidos com foco nos diversos aspectos da computaÃ§Ã£o orientada a serviÃ§os, tais quais arquitetura, modelos, mÃ©todos, processos, ferramentas diversas, frameworks, mÃ©tricas, problemas solucionados e ainda vigentes. Desta forma, a intenÃ§Ã£o daqueles interessados em iniciar suas atividades na Ã¡rea fica comprometida pela dificuldade em se obter informaÃ§Ãµes claras sobre o atual estado da arte, os desafios e os temas mais abordados e aqueles com deficit de pesquisas. Esses dados sÃ£o cruciais para que esforÃ§os sejam bem direcionados e para que a ciÃªncia caminhe em cooperaÃ§Ã£o e com eficiÃªncia.
