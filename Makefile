@@ -1,9 +1,9 @@
 compileAll: compileBib 
-	pdflatex sbrc-2013.tex 
+	pdflatex sbcars.tex 
 
 
 compileBib: 
-	bibtex sbrc-2013
+	bibtex sbcars
 
 clean:
 	rm *.aux *.dvi *.pdf *.blg *.bbl *.ps *.log *.~

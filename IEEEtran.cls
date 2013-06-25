@@ -1638,6 +1638,7 @@
 \def\partname{Part}
 \def\appendixname{Appendix}
 \def\abstractname{Abstract}
+\def\resumoname{Resumo}
 % IEEE specific names
 \def\IEEEkeywordsname{Index Terms}
 \def\IEEEproofname{Proof}
@@ -3717,6 +3718,17 @@ between column types.}%
 \def\endabstract{\relax\ifCLASSOPTIONconference\vspace{0ex}\else\vspace{1.34ex}\fi\par\if@twocolumn\else\endquotation\fi
     \normalfont\normalsize}
 
+\def\resumo{\normalfont
+    \if@twocolumn
+      \@IEEEabskeysecsize\bfseries\textit{\resumoname}---\relax
+    \else
+      \begin{center}\vspace{-1.78ex}\@IEEEabskeysecsize\textbf{\abstractname}\end{center}\quotation\@IEEEabskeysecsize
+    \fi\@IEEEgobbleleadPARNLSP}
+% V1.6 IEEE wants only 1 pica from end of abstract to introduction heading when in 
+% conference mode (the heading already has this much above it)
+\def\endresumo{\relax\ifCLASSOPTIONconference\vspace{0ex}\else\vspace{1.34ex}\fi\par\if@twocolumn\else\endquotation\fi
+    \normalfont\normalsize}
+    
 \def\IEEEkeywords{\normalfont
     \if@twocolumn
       \@IEEEabskeysecsize\bfseries\textit{\IEEEkeywordsname}---\relax
